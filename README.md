@@ -231,16 +231,6 @@ scrapy crawl news -o output.csv
 
 ---
 
-## 🔄 Related Projects
-
-This project is part of a 3-part exploration of NLP techniques:
-
-1. **NLP Fundamentals** (This repo) - Traditional approaches
-2. **[Semantic News Search](https://github.com/codex83/semantic-news-search)** - Vector embeddings & semantic search
-3. **[News RAG Chatbot](https://github.com/codex83/news-rag-chatbot)** - RAG with LLM integration
-
-**Progression:** Traditional NLP → Modern Embeddings → LLM Applications
-
 ---
 
 ## 🛠️ Technologies Used
