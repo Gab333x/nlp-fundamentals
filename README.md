@@ -139,7 +139,7 @@ nlp-fundamentals/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/nlp-fundamentals.git
+git clone https://github.com/codex83/nlp-fundamentals.git
 cd nlp-fundamentals
 
 # Create virtual environment (recommended)
