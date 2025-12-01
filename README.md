@@ -1,6 +1,6 @@
 # 📚 NLP Fundamentals
 
-A comprehensive exploration of foundational Natural Language Processing techniques, from web scraping and regex-based text extraction to traditional machine learning classifiers. This repository demonstrates core NLP skills that serve as building blocks for advanced applications.
+A hands-on exploration of foundational Natural Language Processing techniques, from web scraping and regex-based text extraction to traditional machine learning classifiers. This project demonstrates core NLP skills through practical implementations, serving as building blocks for advanced applications.
 
 ## 🎯 What This Repository Demonstrates
 
@@ -20,24 +20,24 @@ A comprehensive exploration of foundational Natural Language Processing techniqu
 nlp-fundamentals/
 ├── README.md                           # This file
 ├── requirements.txt                    # Python dependencies
-├── assignment1/                        # Regex & Web Scraping
+├── web-scraping/                       # Part 1: Regex & Web Scraping
 │   ├── regex_news_scraping.ipynb      # Selenium + regex extraction
 │   ├── text_preprocessing.ipynb       # Text cleaning techniques
 │   └── text_analysis.ipynb            # Pattern analysis
-├── assignment2/                        # Traditional ML Classification
+├── classification/                     # Part 2: Traditional ML Classification
 │   ├── news_classification.ipynb      # Full ML pipeline
 │   ├── news_scrapper/                 # Scrapy project
 │   │   ├── news/                      # Spider & pipeline code
 │   │   └── scrapy.cfg                 # Scrapy configuration
 │   └── data/                          # AG News dataset
-│       ├── train.csv                  # 120,000 news articles
-│       └── test.csv                   # 7,600 news articles
+│       ├── train.csv                  # 120,000 news articles (download)
+│       └── test.csv                   # 7,600 news articles (download)
 └── docs/                              # Additional documentation
 ```
 
 ## 📖 Module Overview
 
-### Assignment 1: Web Scraping & Regex
+### Part 1: Web Scraping & Regex
 
 **Skills Demonstrated:**
 - Selenium WebDriver for dynamic content scraping
@@ -72,7 +72,7 @@ nlp-fundamentals/
 
 ---
 
-### Assignment 2: Traditional ML Classification
+### Part 2: Traditional ML Classification
 
 **Skills Demonstrated:**
 - EDA with visualizations (word clouds, distributions)
@@ -160,14 +160,14 @@ pip install -r requirements.txt
 # Start Jupyter
 jupyter notebook
 
-# Navigate to desired assignment folder
+# Navigate to desired module folder
 # Open and run notebooks in order
 ```
 
 ### Running the Scrapy Spider
 
 ```bash
-cd assignment2/news_scrapper
+cd classification/news_scrapper
 
 # Run the news spider
 scrapy crawl news -o output.json
@@ -180,12 +180,12 @@ scrapy crawl news -o output.csv
 
 ## 📊 Key Results
 
-### Assignment 1: Regex Extraction
-- Successfully scraped 50+ news articles
+### Web Scraping & Regex
+- Successfully scraped 50+ news articles using Selenium
 - Extracted structured data using regex patterns
-- Cleaned and normalized text for analysis
+- Cleaned and normalized text for downstream analysis
 
-### Assignment 2: Classification
+### Traditional ML Classification
 - **Best Model**: [Your best classifier here]
 - **Test Accuracy**: [Your accuracy here]
 - **F1-Score**: [Your F1 score here]
@@ -281,7 +281,7 @@ This repository is part of a 3-project NLP learning journey:
 **Download Instructions:**
 1. Visit the Kaggle link above
 2. Download `train.csv` and `test.csv`
-3. Place in `assignment2/data/` directory
+3. Place in `classification/data/` directory
 
 ---
 
@@ -311,7 +311,7 @@ pip install scrapy
 
 **Problem**: Dataset files not found
 
-**Solution**: Download from Kaggle and place in `assignment2/data/`:
+**Solution**: Download from Kaggle and place in `classification/data/`:
 - `train.csv`
 - `test.csv`
 
@@ -336,14 +336,14 @@ pip install scrapy
 
 ---
 
-## 👤 Author
+## 👤 About This Project
 
-Developed as part of an advanced NLP course, demonstrating:
-- Foundational NLP techniques
-- Traditional machine learning
-- Web scraping best practices
-- Clean code organization
-- Reproducible research methods
+This project explores foundational NLP techniques through hands-on implementation, demonstrating:
+- Core text processing and extraction skills
+- Traditional machine learning approaches
+- Production-grade web scraping
+- Clean, reproducible code organization
+- Best practices in NLP pipelines
 
 ---
 

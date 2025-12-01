@@ -1,6 +1,6 @@
 # 🚀 Quick Start Guide
 
-Get started with NLP fundamentals in **5 minutes**!
+Get started exploring NLP fundamentals in **5 minutes**!
 
 ## ⚡ Fastest Path
 
@@ -12,10 +12,10 @@ cd nlp-fundamentals
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Download dataset (for Assignment 2)
+# 3. Download dataset (for Part 2)
 # Visit: https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset
 # Download train.csv and test.csv
-# Place in: assignment2/data/
+# Place in: classification/data/
 
 # 4. Start Jupyter
 jupyter notebook
@@ -23,25 +23,25 @@ jupyter notebook
 
 ## 📚 Recommended Learning Path
 
-### Start Here: Assignment 1
-1. Open `assignment1/regex_news_scraping.ipynb`
+### Start Here: Part 1 - Web Scraping & Regex
+1. Open `web-scraping/regex_news_scraping.ipynb`
 2. Run cells to see Selenium scraping in action
 3. Learn regex patterns for text extraction
 4. Continue with preprocessing and analysis notebooks
 
 **Time**: ~30-45 minutes
 
-### Then: Assignment 2
-1. Ensure dataset is in `assignment2/data/`
-2. Open `assignment2/news_classification.ipynb`
+### Then: Part 2 - Traditional ML Classification
+1. Ensure dataset is in `classification/data/`
+2. Open `classification/news_classification.ipynb`
 3. Follow the complete ML pipeline
 4. Compare different classifiers
 
 **Time**: ~45-60 minutes
 
-### Optional: Scrapy Spider
+### Optional: Production Scrapy Spider
 ```bash
-cd assignment2/news_scrapper
+cd classification/news_scrapper
 scrapy crawl news -o output.json
 ```
 
@@ -51,13 +51,13 @@ scrapy crawl news -o output.json
 
 ## 🎯 What You'll Learn
 
-### Assignment 1: Foundations
+### Part 1: Web Scraping Foundations
 - ✅ Web scraping with Selenium
 - ✅ Regex for text extraction
 - ✅ HTML cleaning
 - ✅ Text normalization
 
-### Assignment 2: Machine Learning
+### Part 2: Traditional Machine Learning
 - ✅ EDA techniques
 - ✅ TF-IDF, Word2Vec
 - ✅ Logistic Regression, Random Forest
@@ -79,16 +79,16 @@ scrapy crawl news -o output.json
 
 ## 📊 Expected Results
 
-### Assignment 1
+### Part 1: Web Scraping
 - 50+ scraped news articles
 - Extracted structured data (URLs, dates, emails, etc.)
-- Clean, normalized text
+- Clean, normalized text ready for analysis
 
-### Assignment 2
+### Part 2: Classification
 - 85-90% classification accuracy
 - Beautiful word clouds per category
 - Confusion matrix visualizations
-- Trained model ready for deployment
+- Trained models ready for deployment
 
 ---
 
@@ -108,9 +108,9 @@ After mastering the fundamentals:
 
 ## 💡 Pro Tips
 
-1. **Read notebooks top-to-bottom** - They're designed as tutorials
+1. **Read notebooks top-to-bottom** - They're designed as learning paths
 2. **Experiment with parameters** - Change values, see what happens
-3. **Check README files** in each assignment folder for details
+3. **Check README files** in each module folder for details
 4. **Start with small samples** - Test with 100 articles before full dataset
 
 ---

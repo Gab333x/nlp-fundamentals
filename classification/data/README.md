@@ -12,7 +12,7 @@ This directory should contain the AG News Classification dataset files.
 
 3. Place them in this directory:
    ```
-   assignment2/data/
+   classification/data/
    ├── train.csv
    └── test.csv
    ```
