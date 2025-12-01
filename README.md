@@ -24,15 +24,14 @@ nlp-fundamentals/
 │   ├── regex_news_scraping.ipynb      # Selenium + regex extraction
 │   ├── text_preprocessing.ipynb       # Text cleaning techniques
 │   └── text_analysis.ipynb            # Pattern analysis
-├── classification/                     # Part 2: Traditional ML Classification
-│   ├── news_classification.ipynb      # Full ML pipeline
-│   ├── news_scrapper/                 # Scrapy project
-│   │   ├── news/                      # Spider & pipeline code
-│   │   └── scrapy.cfg                 # Scrapy configuration
-│   └── data/                          # AG News dataset
-│       ├── train.csv                  # 120,000 news articles (download)
-│       └── test.csv                   # 7,600 news articles (download)
-└── docs/                              # Additional documentation
+└── classification/                     # Part 2: Traditional ML Classification
+    ├── news_classification.ipynb      # Full ML pipeline
+    ├── news_scrapper/                 # Scrapy project
+    │   ├── news/                      # Spider & pipeline code
+    │   └── scrapy.cfg                 # Scrapy configuration
+    └── data/                          # Place AG News dataset here
+        ├── train.csv                  # Download from Kaggle
+        └── test.csv                   # Download from Kaggle
 ```
 
 ## 📖 Module Overview
@@ -150,8 +149,9 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Download AG News dataset (if not included)
-# Place train.csv and test.csv in assignment2/data/
+# Download AG News dataset from Kaggle
+# https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset
+# Place train.csv and test.csv in classification/data/
 ```
 
 ### Running the Notebooks
@@ -160,8 +160,8 @@ pip install -r requirements.txt
 # Start Jupyter
 jupyter notebook
 
-# Navigate to desired module folder
-# Open and run notebooks in order
+# Part 1: Start with web-scraping/regex_news_scraping.ipynb
+# Part 2: Then classification/news_classification.ipynb
 ```
 
 ### Running the Scrapy Spider
@@ -231,23 +231,13 @@ scrapy crawl news -o output.csv
 
 ---
 
-## 🔄 Progression Path
+## 🔄 Related Projects
 
-This repository is part of a 3-project NLP learning journey:
+This project is part of a 3-part exploration of NLP techniques:
 
-1. **NLP Fundamentals** (This repo) ⭐
-   - Regex, scraping, traditional ML
-   - Foundational skills
-
-2. **[Semantic News Search](https://github.com/YOUR_USERNAME/semantic-news-search)** ⭐
-   - Sentence transformers
-   - Vector databases (Qdrant)
-   - Semantic similarity
-
-3. **[News RAG Chatbot](https://github.com/YOUR_USERNAME/news-rag-chatbot)** ⭐⭐
-   - Retrieval-Augmented Generation
-   - LLM integration (Ollama/OpenAI)
-   - Production deployment
+1. **NLP Fundamentals** (This repo) - Traditional approaches
+2. **[Semantic News Search](https://github.com/codex83/semantic-news-search)** - Vector embeddings & semantic search
+3. **[News RAG Chatbot](https://github.com/codex83/news-rag-chatbot)** - RAG with LLM integration
 
 **Progression:** Traditional NLP → Modern Embeddings → LLM Applications
 
@@ -355,12 +345,7 @@ Dataset: AG News Classification Dataset (Public Domain)
 
 ---
 
-## 🔗 Related Projects
-
-- **[Semantic News Search](https://github.com/YOUR_USERNAME/semantic-news-search)** - Vector-based news search
-- **[News RAG Chatbot](https://github.com/YOUR_USERNAME/news-rag-chatbot)** - RAG-powered Q&A system
-
 ---
 
-**Building strong NLP foundations for advanced applications** 🚀
+**Exploring NLP from traditional to modern approaches** 🚀
 
