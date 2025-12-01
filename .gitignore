@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+
+# Scrapy
+.scrapy/
+
+# Data (large files)
+*.csv
+*.json
+*.jsonl
+!example_output.json
+
+# Models
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Logs
+*.log
+
+# Selenium
+chromedriver
+geckodriver
+*.exe
+
+# NLTK data
+nltk_data/
+
+# SpaCy models
+spacy_models/
+
